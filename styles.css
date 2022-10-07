@@ -25,6 +25,13 @@
 
   }
 
+  mark {
+  background-color: black;
+  color: white;
+}
+
+
+
   #click_text {
 
     text-align: center;
@@ -175,10 +182,7 @@
 
    }
 
-   mark {
-   background-color: #3de300;
-   color: black;
-  }
+
 
 
   p {
@@ -233,7 +237,7 @@
 
    color: white;
    font-family: 'Source Code Pro', monospace;
-   background-color: black;
+   /* background-color: black; */
    font-size: 150%;
    margin-bottom: 2%;
    margin-top: 2%;
@@ -298,6 +302,12 @@ img {
   max-width: 100%;
   margin: auto;
   margin-bottom: 15%;
+}
+
+
+  mark {
+  background-color: black;
+  color: white;
 }
 
 .FLESH {
@@ -451,9 +461,7 @@ div {
 
  }
 
- mark {
- background-color: #3de300;
- color: black;
+
 
 
 }
@@ -514,7 +522,7 @@ a {
  color: #white;
  font-size: 90%;
  font-family: 'Source Code Pro', monospace;
-background-color: rgba(0, 0, 0, .85);
+/* background-color: rgba(0, 0, 0, .85); */
  margin-bottom: 10%;
  padding: 10%;
 
