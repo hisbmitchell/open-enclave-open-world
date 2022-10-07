@@ -1,0 +1,549 @@
+
+
+@media screen and (min-width: 700px){
+
+  html {
+
+   /* overflow:hidden; */
+   margin: 0;
+   height: 100%;
+   width: 100%;
+   padding: 0;
+   scrollbar-width: none;
+  }
+
+  body {
+   /* overflow: auto; */
+   margin: 0;
+   height: 100%;
+   width: 100%;
+   padding: 0;
+   overflow: auto;
+   scrollbar-width: none;
+
+   z-index: -1;
+
+  }
+
+  #click_text {
+
+    text-align: center;
+
+    vertical-align: middle;
+    font-size: 120%;
+    margin-top: 3%;
+}
+
+#click_box {
+
+    padding-top: 10%;
+    position:relative;
+    max-width: 100%;
+    max-height: 100%;
+    margin:auto;
+    z-index: 3;
+}
+
+#click_page {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    background:black;
+
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin:0;
+    margin-bottom: 0;
+}
+
+.FLESH {
+  /* max-width: 0%;
+  max-height: 0%; */
+  opacity: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  }
+
+
+      /* layout */
+      .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding-top: 0;
+
+      }
+
+
+      /* Parallax Styles */
+      .parallax-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        perspective: 8px;
+        /* mix-blend-mode: difference; */
+        perspective-origin: 0%;
+        display: flex;
+
+      }
+
+      .background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 180%;
+        height: 300%;
+        padding-top:50%;
+        transform-origin: 0;
+        transform: translateZ(-5px) scale(.8);
+
+      }
+
+      .foreground {
+        margin-top: auto;
+        margin-bottom: 50px;
+        transform: translateZ(0px);
+
+
+
+
+        /* transform-origin: 0;
+        transform: translateZ(3px) scale(0.625); */
+
+        /* Uncomment the code below to see the difference the scale property makes! */
+        /* transform: translateZ(3px); */
+        /* transform: translateZ(0) scale(1); */
+      }
+
+      .foreground h1 {
+        font-size: 36px;
+      }
+
+
+  .MAIN {
+
+
+      margin-top:0%;
+      margin-bottom: 0;
+      max-width: 100%;
+
+    }
+
+
+
+  #c {
+     z-index: -9999;
+     position: fixed;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+  }
+
+  div {
+   position: relative;
+   overflow-y: hidden;
+   padding-top: 5%;
+   -ms-overflow-style: none;
+
+   }
+
+  div::-webkit-scrollbar {
+    display: none;
+}
+
+   #INTRO {
+
+   }
+
+   img {
+     display: block;
+     max-width: 40%;
+     margin: auto;
+     margin-bottom: 5%;
+
+   }
+
+   mark {
+   background-color: #3de300;
+   color: black;
+  }
+
+
+  p {
+     font-size: 90%;
+     font-family: 'Calligraffitti', cursive;
+     color: white;
+     /* background-color: rgba(0, 0, 0, 0.3);
+     background-size: 20% 20%; */
+     text-align: center;
+     padding: 1%;
+     margin-left: auto;
+     margin-right: auto;
+     max-width: 40%;
+     overflow-y: hidden;
+     line-height: 1.8;
+     -ms-overflow-style: none;
+
+
+  }
+
+
+
+  p::-webkit-scrollbar {
+    display: none;
+}
+
+  #intro {
+   margin-top: 10%;
+  }
+
+  a {
+    color: red;
+    padding: none;
+  }
+
+  #REMOTE {
+    color: #66ff33;
+  }
+
+  #daytime_title{
+
+   color: black;
+   background-color: white;
+   margin-top: 15%;
+
+  }
+
+
+
+
+  #event_header{
+
+   color: white;
+   font-family: 'Source Code Pro', monospace;
+   background-color: black;
+   font-size: 150%;
+   margin-bottom: 2%;
+   margin-top: 2%;
+   padding: 5%;
+  }
+
+  #event_header_night{
+
+   color: #3de300;
+   background-color: black;
+   margin-bottom: 2%;
+   margin-top: 2%;
+   font-size: 50%;
+
+
+  }
+
+  ul {
+     font-family: 'Calligraffitti', cursive;
+     color: white;
+     text-align: left;
+     padding: 5%;
+     margin-left: auto;
+     margin-right: auto;
+     max-width: 35%;
+  }
+
+  li {
+
+     padding: 1%;
+  }
+
+  }
+
+  @media only screen and (max-width: 699px){
+
+  html {
+
+ /* overflow:hidden; */
+ margin: 0;
+ height: 100%;
+ width: 100%;
+ padding: 0;
+
+
+
+
+}
+
+body {
+ /* overflow: auto; */
+ margin: 0;
+ height: 100%;
+ width: 100%;
+ padding: 0;
+ overflow: auto;
+
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+  margin-bottom: 15%;
+}
+
+.FLESH {
+  max-width: 100%;
+  opacity: 1;
+
+  }
+
+  .MAIN {
+
+      display: block;
+
+      max-width: 100%;
+      /* margin: auto; */
+      padding-top: 5%;
+      /* margin-bottom: 15%; */
+      position: relative;
+      margin: auto;
+  		left: 0px;
+  		top: 0px;
+  		z-index: 1;
+      overflow-y: hidden;
+
+    }
+
+    /* layout */
+    .wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      padding-top: 0;
+
+    }
+
+
+    /* Parallax Styles */
+    .parallax-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      perspective: 8px;
+      /* mix-blend-mode: difference; */
+      perspective-origin: 0%;
+      display: flex;
+
+    }
+
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 180%;
+      height: 300%;
+      padding-top: 30%;
+      transform-origin: 0;
+      transform: translateZ(-5px) scale(.8);
+
+    }
+
+    .foreground {
+      margin-top: auto;
+      margin-bottom: 50px;
+      transform: translateZ(0px);
+
+
+
+
+      /* transform-origin: 0;
+      transform: translateZ(3px) scale(0.625); */
+
+      /* Uncomment the code below to see the difference the scale property makes! */
+      /* transform: translateZ(3px); */
+      /* transform: translateZ(0) scale(1); */
+    }
+
+    .foreground h1 {
+      font-size: 50px;
+    }
+
+
+
+
+#click_text {
+
+  text-align: center;
+
+  vertical-align: middle;
+  font-size: 120%;
+  margin-top: 12%;
+}
+
+#click_box {
+
+  padding-top: 10%;
+  position:relative;
+  max-width: 100%;
+  max-height: 100%;
+  margin:auto;
+  z-index: 3;
+}
+
+#click_page {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  background:black;
+
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin:0;
+  margin-bottom: 0;
+}
+
+
+
+
+#c {
+
+/*   width: 100%;
+ height: 100%;
+ position: absolute;
+ top: 0;
+ left: 0; */
+
+   z-index: -9999;
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+
+   /* overflow-y: scroll; */
+
+}
+
+div {
+ position: relative;
+ overflow-y: scroll;
+ padding-top: 5%;
+
+ }
+
+ mark {
+ background-color: #3de300;
+ color: black;
+
+
+}
+
+
+p {
+   font-size: 90%;
+   font-family: 'Calligraffitti', cursive;
+   color: white;
+   /* background-color: rgba(0, 0, 0, 0.3);
+   background-size: 20% 20%; */
+   text-align: center;
+   padding: 1%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 80%;
+   overflow-y: scroll;
+   line-height: 1.8;
+}
+
+#intro {
+ margin-top: 20%;
+
+
+
+}
+
+a {
+  color: red;
+  padding: none;
+}
+
+#REMOTE {
+  color: #66ff33;
+}
+
+#daytime_title{
+
+ color: black;
+ background-color: white;
+ margin-top: 15%;
+
+}
+
+#nightime_title{
+
+ /* color: white;
+ background-color: black;
+ margin-top: 30%; */
+
+}
+
+
+
+
+#event_header{
+
+ color: #white;
+ font-size: 90%;
+ font-family: 'Source Code Pro', monospace;
+background-color: rgba(0, 0, 0, .85);
+ margin-bottom: 10%;
+ padding: 10%;
+
+}
+
+#event_header_night{
+
+ color: white;
+ font-family: 'Source Code Pro', monospace;
+ background-color: rgba(0, 0, 0, .1);
+ margin-bottom: 10%;
+ font-size: 90%;
+
+
+}
+
+ul {
+   font-family: 'Calligraffitti', cursive;
+   color: white;
+   text-align: left;
+   padding: 5%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 35%;
+}
+
+li {
+
+   padding: 1%;
+}
+
+}
